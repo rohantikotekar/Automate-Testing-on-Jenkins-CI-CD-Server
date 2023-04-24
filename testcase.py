@@ -7,7 +7,7 @@ class WebsiteLoadTest(unittest.TestCase):
         response = requests.get('https://atg.world')
 
         print("Checking if the website loaded properly.")
-        self.assertEqual(response.status_code, 200, 'Website did not load properly.')
+        self.assertEqual(response.status_code, 200, 'Website did not load properly. Hi. ')
 
         if response.status_code == 200:
             print("Website is running.")
