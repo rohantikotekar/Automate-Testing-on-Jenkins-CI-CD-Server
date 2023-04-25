@@ -10,7 +10,7 @@ class WebsiteLoadTest(unittest.TestCase):
         self.assertEqual(response.status_code, 200, 'Website did not load properly. Hi. ')
 
         if response.status_code == 200:
-            print("Website is running. ABBAS IDHAR DHYAN DE. PAGAL.")
+            print("Website is running.")
 
 if __name__ == '__main__':
     unittest.main()
