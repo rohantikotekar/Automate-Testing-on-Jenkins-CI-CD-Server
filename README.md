@@ -1,9 +1,5 @@
 # Automate-Testing-on-Jenkins-CI-CD-Server
 
-## Description
-
-This project is demonstrates the use of Docker for containerization and CI/CD for automated deployment and testing. The application is deployed across three AWS EC2 servers (development, testing, and production) with automated Docker builds and test executions integrated into the CI/CD pipeline.
-
 ## Features
 
 - **Full-Stack Application**: A complete Python-based application with both front-end and back-end components.
