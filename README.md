@@ -37,15 +37,14 @@ Set Up EC2 Servers:
 ## Set up a CI/CD pipeline using Jenkins or another tool.
 Configure it to build a new Docker image on each commit to the production branch.
 Automate deployments to the EC2 instances.
-
-### Integrate automated test cases into the CI/CD pipeline to ensure quality before deployment.
-### Development: Push changes to the dev branch and deploy to the development server.
-### Testing: Push changes to the test branch and deploy to the testing server.
-### Production: Push changes to the prod branch to build and deploy to the production server.
-### Build Failures: Check Docker build logs and ensure that all dependencies are correctly specified.
-### Deployment Issues: Verify server configurations and ensure that Docker containers are running correctly.
-### Test Failures: Review CI/CD logs to identify and resolve any issues in automated tests.
-### Contributions are welcome! Please open issues or submit pull requests. For major changes, open an issue first to discuss the proposed changes.
+Integrate automated test cases into the CI/CD pipeline to ensure quality before deployment.
+Development: Push changes to the dev branch and deploy to the development server.
+Testing: Push changes to the test branch and deploy to the testing server.
+Production: Push changes to the prod branch to build and deploy to the production server.
+Build Failures: Check Docker build logs and ensure that all dependencies are correctly specified.
+Deployment Issues: Verify server configurations and ensure that Docker containers are running correctly.
+Test Failures: Review CI/CD logs to identify and resolve any issues in automated tests.
+Contributions are welcome! Please open issues or submit pull requests. For major changes, open an issue first to discuss the proposed changes.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
